@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/styles/global.css">
+</head>
+<html lang="en">
+    <%- include('../partials/head') %>
+<body class=<%= className %>>
+    <%- include('../partials/header'); %>
+    <%- include('../partials/nav') %>
+    <section class="caracterWraper">
+    <div class="charcters">
+        <%- include('../partials/charactarS') %>
+    </div>
+    </section>
+    <div class="boxImage">
+        <img class="caracterImage" src="/Images/katara.png" alt="">
+    </div>
+</body>
+</html>

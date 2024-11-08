@@ -1,0 +1,45 @@
+///heroes info
+
+function Hero(name, story, bending, role) {
+    this.name = name, 
+    this.story = story,
+    this.bending = bending,
+    this.role = role
+}
+
+const aang = new Hero ("Aang", "Aang was born to be the avatar, but run away from home when he was 12 years old with his flying byson (appa). He got cought in a storm flying on appa, the crached into the wather and they almost drowned. Aang came into the avatar state, witch only shows when the avatar is in danger. So, in the whater almost drowning, got aang into the avatar state and froze himself and appa, into a cupola. Aang was in a deep sleep for 100 years in that cupola under whater, but when Katara and Sokka found the big cupola they smached it open and Aang woke up. The avatar was gone for a 100 years but has now returned. Ang is from the air temple, and he can air bend, but he has to learn all the four elements as a avatar, and make peace in the world. Katara and Sokka helps him on hes jureny when he lears whater bending, earth bending and fire bending. The have alot of edventures and experiences on the way.", "Air, water, fire and earths", "The avatar");
+const katara = new Hero("Katara", "Katara grew up in the suther whater tribe. It is a small village, and everyting is made out of snow and ice. There is no wather benders in the village exept for her. She is the only whater bender, and later on she found out that she has heeling powers as well. Kataras mother got killed by the fire benders when she was a litle kid. The fire benders was there to take away all the whater benders. Kataras mother was no whater bender, but her mother wanted to keep katara safe, and there for she told the fire benders that she is the whater bender. Katara remaind safe, but lost her mom. Katara and her brother Sokka was the one who found Aang in the ice cupole, and desided that they are going to help him master all the fout elements. Katara left her village, and got beter at whater bending in fight. On her jorney with Aang and Sokka, got Katara know how to blodbend, witch she thougt was an awfull skill and desided to never blodbend. At the end of the show, she and Aang gets married.", "vather", "Finds aang and helps him on his jureny to master all the four elements to beat the fire lord.")
+
+
+export const good = [aang, katara];
+
+
+///vilan info
+
+function Evil(name, story, bending, role){
+    this.name = name, 
+    this.story = story,
+    this.bending = bending,    
+    this.role = role
+}
+
+const zuko = new Evil("Zuko", "Zuko is the prins of the fire nation, but he was banishd from the fire nation when he was a teenager. Zuko was in an important meeting, where the firebenders wantet to take over land from other bnders, but Zuko said no. He was almoast a child, but hes father got so mad, so he baniched Zuko from the fire nation untill he had found the long gone avatar, to bring back Zukos pride and acceptense as a prins again. So Zuko got obsessed to find the avatar and destory Aang so he could come home. Zuko hunts down the avatar more then once, but is never able to beat Aang. After some months, Zuko starts to change his mindset, and wants to be god after traveling the world and meet other benders who is farfull of the fire nation. Zuko realised with time that people shouldnt be scared of the firenation and there for Zuko became good. When Zuko meets his sister Azula, he got cought up on the bad side agian, and tried to kill the avatar yet again. But later on he realises that, his pride and desteny is up to himself, so he teaches the avatar to fire bend and become friends with everyone. At the end, Zuko becomes the new firelord and works with Aang to bring the world to peace.", "fire", "Prins of the firenation, and hes mission is to kill the avatar")
+const ozai = new Evil("Fire Lord Ozai", "Ozai is the fire lord of the fire nation. The biggest villan the avatar got. Fire lord Ozai wants to take over the whole world and destory parts of it to. There is a comet, that passes the eart on a spcial day, and fire benders will get greate power of that comet. So Ozai plans to destory the whole world when the comet passes by eart, and he and every one else will get great power to their fire bending. The only person who can stop Ozai is the avatar. On the day the comet passes by eart, Ozai gets in a fight with the avatar, and Ozai almoast beats the avatar, but in the final moments, the avatar got in to the avatar state with greater power with all the four alements. The avatar is about to end Ozai, but stopps right before, and desides to take Ozais powers away instead of killing him. After that Ozai gots looked up in a prission for the rest of hes life.", "Fire", "Fire lord of the fire nation. Wants to destroy the whole world")
+
+export const evilpeople = [zuko, ozai];
+
+
+///stories
+
+function Caracter(name, story){
+    this.name = name,
+    this.story = story
+}
+
+const Caracteraang = new Caracter("Aang", "Aang was born to be the avatar, but run away from home when he was 12 years old with his flying byson (appa). He got cought in a storm flying on appa, the crached into the wather and they almost drowned. Aang came into the avatar state, witch only shows when the avatar is in danger. So, in the whater almost drowning, got aang into the avatar state and froze himself and appa, into a cupola. Aang was in a deep sleep for 100 years in that cupola under whater, but when Katara and Sokka found the big cupola they smached it open and Aang woke up. The avatar was gone for a 100 years but has now returned. Ang is from the air temple, and he can air bend, but he has to learn all the four elements as a avatar, and make peace in the world. Katara and Sokka helps him on hes jureny when he lears whater bending, earth bending and fire bending. The have alot of edventures and experiences on the way.")
+const CaracterKatara = new Caracter("Katara", "Katara grew up in the suther whater tribe. It is a small village, and everyting is made out of snow and ice. There is no wather benders in the village exept for her. She is the only whater bender, and later on she found out that she has heeling powers as well. Kataras mother got killed by the fire benders when she was a litle kid. The fire benders was there to take away all the whater benders. Kataras mother was no whater bender, but her mother wanted to keep katara safe, and there for she told the fire benders that she is the whater bender. Katara remaind safe, but lost her mom. Katara and her brother Sokka was the one who found Aang in the ice cupole, and desided that they are going to help him master all the fout elements. Katara left her village, and got beter at whater bending in fight. On her jorney with Aang and Sokka, got Katara know how to blodbend, witch she thougt was an awfull skill and desided to never blodbend. At the end of the show, she and Aang gets married.") 
+
+const CaracterZuko = new Caracter("Zuko", "Zuko is the prins of the fire nation, but he was banishd from the fire nation when he was a teenager. Zuko was in an important meeting, where the firebenders wantet to take over land from other bnders, but Zuko said no. He was almoast a child, but hes father got so mad, so he baniched Zuko from the fire nation untill he had found the long gone avatar, to bring back Zukos pride and acceptense as a prins again. So Zuko got obsessed to find the avatar and destory Aang so he could come home. Zuko hunts down the avatar more then once, but is never able to beat Aang. After some months, Zuko starts to change his mindset, and wants to be god after traveling the world and meet other benders who is farfull of the fire nation. Zuko realised with time that people shouldnt be scared of the firenation and there for Zuko became good. When Zuko meets his sister Azula, he got cought up on the bad side agian, and tried to kill the avatar yet again. But later on he realises that, his pride and desteny is up to himself, so he teaches the avatar to fire bend and become friends with everyone. At the end, Zuko becomes the new firelord and works with Aang to bring the world to peace.")
+const CaracterOzai = new Caracter("Ozai", "Ozai is the fire lord of the fire nation. The biggest villan the avatar got. Fire lord Ozai wants to take over the whole world and destory parts of it to. There is a comet, that passes the eart on a spcial day, and fire benders will get greate power of that comet. So Ozai plans to destory the whole world when the comet passes by eart, and he and every one else will get great power to their fire bending. The only person who can stop Ozai is the avatar. On the day the comet passes by eart, Ozai gets in a fight with the avatar, and Ozai almoast beats the avatar, but in the final moments, the avatar got in to the avatar state with greater power with all the four alements. The avatar is about to end Ozai, but stopps right before, and desides to take Ozais powers away instead of killing him. After that Ozai gots looked up in a prission for the rest of hes life.")
+
+export const thecaractars = [Caracteraang, CaracterKatara, CaracterZuko, CaracterOzai]

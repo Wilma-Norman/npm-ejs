@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/head") %>
+<body class=<%= className %>>   
+    <%- include("../partials/header") %>   
+    <%- include('../partials/nav') %>
+
+    <div class="main-content">
+        <% if (locals.className === "good") { %> 
+            <%- include("../partials/god")  %>
+                <% } else { %>
+            <%- include("../partials/evil") %>
+        <% } %>     
+
+    </div> 
+</body>
+</html>

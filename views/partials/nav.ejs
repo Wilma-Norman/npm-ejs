@@ -1,0 +1,35 @@
+<div class="navWraper">
+    <nav>
+        <ul>
+            <li class="navbox"><a href="/">Home</a></li>
+            <li class="navbox parent">
+                <a href="/villans" onclick="toggleSublink(event, 'villains-sublink')">Villains</a>
+                <ul id="villains-sublink" class="sublink">
+                    <li class="sub"><a href="/villans/zuko">Zuko</a></li>
+                    <li class="sub"><a href="/villans/ozai">Ozai</a></li>
+                </ul>
+            </li>
+            <li class="navbox parent">
+                <a href="/heroes" onclick="toggleSublink(event, 'heroes-sublink')">Heroes</a>
+                <ul id="heroes-sublink" class="sublink">
+                    <li class="sub"><a href="/heroes/aang">Aang</a></li>
+                    <li class="sub"><a href="/heroes/katarah">Katara</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    function toggleSublink(event, sublinkId) {
+        const sublink = document.getElementById(sublinkId);
+        if (sublink.style.display === 'block') {
+            sublink.style.display = 'none';
+        } else {
+            sublink.style.display = 'block';
+            event.preventDefault(); 
+        }
+    }
+</script>
+
+

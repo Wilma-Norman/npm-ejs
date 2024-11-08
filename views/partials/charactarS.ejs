@@ -1,0 +1,9 @@
+<div class="charcters">
+    <% if (locals.charcters) { %>
+        <% charcters.forEach(charcters => { %>
+            <p><span>Name:</span> <%=charcters.name %></p>
+            <p><span>Role:</span> <%=charcters.role %></p>
+            <p><span>Bending:</span> <%=charcters.bending %></p>                    
+        <% }) %>
+        <% } %>    
+</div>

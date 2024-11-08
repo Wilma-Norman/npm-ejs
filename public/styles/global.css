@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header,
+.bad {
+    background-color:#A799B7;
+}
+
+.bad {
+    background-color: rgb(48, 48, 48); 
+}
+
+.storyline {
+    background-color: #DBD8B3;
+}
+
+.good {
+    background-color: #294D4A;
+}
+
+.homepage {
+    background-color: #DEF7F5;
+}
+
+header {
+    padding: 24px;
+}
+
+h1 {
+    margin-top: 5px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.main-content {
+    text-align: center;
+}
+
+/*---navbar---*/
+
+.navWraper {
+    background-color: #A799B7;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+nav ul li {
+    padding: 8px 16px;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Hide sublinks by default */
+ul.sublink {
+    display: none;
+    background-color: #776472;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #5d4b6a;
+}
+
+/*-- home page --*/
+
+.mainwraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;    
+    background-image: url('/Images/aanggroup.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: #a799b7da;
+    border-radius: 10px;
+}
+
+.maintext {
+    margin: 0 20px 20px 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.subheader {
+    font-size: larger;
+    margin-top: 20px;
+}
+
+.imageWraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.mainImages {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+    transition: box-shadow 0.3s ease;
+    margin: 10px;
+    width: 90%;
+}
+
+.mainImages:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5); 
+}
+
+/*---villan and hero router---*/
+
+.wraper {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evilbox {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #776472;
+    border-radius: 10px;
+}
+
+.goodbox {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #566C68;
+    border-radius: 10px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    font-size: 16px;
+    margin: 30px;
+}
+
+.storyText {
+    font-size: large;
+    
+}
+
+/*---caracter page---*/
+
+.caracterWraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.charcters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    background-color: #566C68;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.boxImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caracterImage {
+    border-radius: 10px;
+    height: 300px;
+    width: auto;
+}
+
+@media screen and (max-width: 746px) {
+    .mainbox {
+        width: 100%;
+        max-height: 100%;
+    }
+
+   
+
+    .caracterImage {
+        width: 90%;
+        height: auto;
+    }
+
+    .charcters {
+        width: 90%;
+    }
+}

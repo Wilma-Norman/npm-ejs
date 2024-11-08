@@ -1,0 +1,12 @@
+<section class="wraper">
+    <div class="goodbox">
+        <div class="page">
+            <h3>The Hero Caracters</h3>
+            <% if (locals.charcters) { %>
+                <% charcters.forEach(charcters => { %>
+                    <p class="storyText"><span>Story about <%=charcters.name %>: </span> <%=charcters.story %></p>                        
+                <% }) %>
+                <% } %>    
+        </div>
+    </div>
+</section>
